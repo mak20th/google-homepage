@@ -10,7 +10,7 @@ body {
 #header {
   height: 50px;
   width: auto;
-  border: 1px solid red;
+  <!--border: 1px solid red;-->
 }
 
 #headerUl {
@@ -19,27 +19,31 @@ body {
   padding: 0; 
   float: right;
 }
-#footerUl1 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; 
-  float: right;
-}
 
-li {
+#headerUl li {
   float: left;
   display: block;
   padding: 8px;
-  color: gray;
-    
 }
+
 a:hover {
   text-decoration: underline
   
 }
 a {
   text-decoration: none;
-  color:black
+  color:gray;
+}
+.fa-th-large{
+  position: relative;
+  top: 2px;
+}
+.fa-bell{
+  position: relative;
+  top: 2px;
+  left: 7px;
+  font-size: 11px;
+  color:white;
 }
 #grayCircle {
   border-radius: 100px;
@@ -47,26 +51,44 @@ a {
   width: 25px;
   height: 25px;    
 }
+#initial{
+  position: relative;
+  top: 5px;
+  left: 10px;
+  font-size: 20px;
+  color: black;
+}
+
 #blueCircle {
   border-radius: 100px;
-  background-color: #284CB2; 
-  width: 40px;
-  height: 40px;    
+  background-color: #2267CF; 
+  width: 37px;
+  height: 37px;
+  position: relative;
+  top: -5px;    
 }
-#googleLogo{ 
-  height: 100px
-  width: 300px;
-  font-family: Arial, sans-serif;
-  font-size: 13px;
-  text-align: center;
+.body {
+  /*border: 2px green solid;*/
+  height: 500px;
+  width: auto;
+}
+#googleLogo{
+  width: auto;
+  margin-left: 374px;
+  margin-top: 140px;
+}
+#googleLogo2{ 
+  width: 265px;
+  padding-bottom: 12px;
 }
 #text1{
- width: 600px;
+ width: 500px;
  box-sizing: border-box;
  border: 2px solid #ccc;
  border-radius: 2px;
  box-shadow: 0 2px 2px rgb(203, 203, 203);
- height: 44px;
+ height: 44px;   
+ margin-left: 250px;
  display: block;
  font-family: Arial,sans-serif;
  background-image: url(https://infogalactic.com/w/images/2/22/Google_microphone_logo.png);
@@ -75,20 +97,50 @@ a {
  background-size: 14px;
  padding: 14px;
  font-size: 18px;
+ position: relative;
 }
 #text2 {  
   height: 36px;
   line-height: 27px;
-  background-color: #f2f2f2;
-  border: 1px solid #f2f2f2;
+  background-color: #DBDBDB;
+  border: 1px solid #DBDBDB;
   border-radius: 2px;
   color: #757575;
   cursor: default;
   font-family: arial,sans-serif;
   font-size: 13px;
   font-weight: bold;
-  margin: 11px 4px;
+  margin: 30px 2px;
   min-width: 54px;
-  padding: 0 16px;
+  padding: 0px 16px;
   text-align: center;
+  position: relative;
+  left: 350px;
 }
+
+#footer {
+  position: relative;
+  top: 158px;
+  height: 40px;
+  width: auto; 
+  background-color:#C0C0C0;
+}
+#footer li{
+  display: inline-block;
+  padding: 8px;
+  
+}
+#footerUlRight{
+  list-style-type: none;
+  margin: 3px;
+  padding: 0; 
+  float: right;  
+}
+#footerUlLeft{
+  list-style-type: none;
+  margin: 3px;
+  padding: 0; 
+  float: left;  
+}
+
+
